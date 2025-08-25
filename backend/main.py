@@ -11,7 +11,8 @@ from anthropic import Anthropic
 from google import genai
 from google.genai import types
 
-CHESS_MOVE_PROMPT_TEMPLATE = """You are a chess engine tasked with finding the best valid move given a current board position and move history. 
+CHESS_MOVE_PROMPT_TEMPLATE = """
+You are a chess engine tasked with finding the best valid move given a current board position and move history. 
 
 <game_state_fen>
 {game_state}
